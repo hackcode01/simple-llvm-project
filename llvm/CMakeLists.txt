@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15 FATAL_ERROR)
 
-set(PROJECT_NAME)
+set(PROJECT_NAME llvm)
 project(${PROJECT_NAME})
 
 add_executable(${PROJECT_NAME} ./main.cpp)
