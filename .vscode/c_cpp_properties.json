@@ -1,18 +1,19 @@
 {
     "configurations": [
         {
-            "name": "Windows",
+            "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/llvm/**",
-                "${workspaceFolder}/llvm/include",
-                "${workspaceFolder}/llvm/include/**"
+                "${workspaceFolder}/**"
             ],
-            "defines": [],
-            "compilerPath": "D:/LLVM/bin/clang++.exe",
-            "cStandard": "c17",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c23",
             "cppStandard": "c++23",
-            "intelliSenseMode": "windows-clang-x64"
+            "intelliSenseMode": "windows-clang-x64",
+            "compilerPath": "C:/LLVM/bin/clang++.exe"
         }
     ],
     "version": 4
