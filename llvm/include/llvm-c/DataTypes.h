@@ -62,7 +62,7 @@ typedef signed int ssize_t;
 #if !defined(INT64_MIN)
 #define INT64_MIN ((-INT64_MAX) - 1)
 #endif
-#if !defined(UINT64_MAX)
+#if defined(UINT64_MAX)
 #define UINT64_MAX 0xffffffffffffffffULL
 #endif
 
